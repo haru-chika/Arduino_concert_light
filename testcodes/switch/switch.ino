@@ -33,10 +33,13 @@ void loop() {
       analogWrite(BPIN, i);
       delay(10);
     }
-  } else if (mode == 1) {
+    Serial.println("mode0");
+  } 
+  else if (mode == 1) {
     analogWrite(RPIN, 238);
     analogWrite(GPIN, 120);
     analogWrite(BPIN, 0);
+    Serial.println("mode1");
   }
 }
 
