@@ -1,6 +1,6 @@
-const int RPIN = 2;
+const int RPIN = 7;
 const int GPIN = 4;
-const int BPIN = 7;
+const int BPIN = 2;
 
 void setup() {
   // put your setup code here, to run once:
